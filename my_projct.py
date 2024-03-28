@@ -22,7 +22,7 @@ while(True):
         response = voice.create_call({
             'to': [{'type': 'phone', 'number': "966550724999"}],
             'from': {'type': 'phone', 'number': "966550724999"},
-            'ncco': [{'action': 'talk', 'text': 'worrng alestraha naaaar'}]
+            'ncco': [{'action': 'talk', 'text': 'worrng the house firrrre'}]
         })
 
     cv2.imshow('Hani', frame)
